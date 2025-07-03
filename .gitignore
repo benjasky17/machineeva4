@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Entorno virtual
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos DVC
+*.dvc
+.dvc/
+
+# Datos pesados (opcional, versiónalos con DVC)
+data/
+dataset/
+models/*.h5
+
+# Otros
+*.log
